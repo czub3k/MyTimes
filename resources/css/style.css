@@ -1,0 +1,18 @@
+header {
+  display: flex; /*flexbox container*/
+
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+
+}
