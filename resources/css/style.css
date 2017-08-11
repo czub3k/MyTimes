@@ -1,6 +1,6 @@
 body {
 color: black;
-margin: 0;
+margin-top: 0;
 }
 
 header {
@@ -12,9 +12,9 @@ header {
   font-size: 14px;
   font-weight: bold;
   width: 100%;
-  border-bottom: 1px solid black;
   height: 80px;
   background-color: white;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -23,7 +23,7 @@ header {
   padding-left: 30px;
   flex-grow: 1; /* IMPORTANT to have space between the items*/
   margin-bottom: 10px;
-  border: 1px solid black;
+
 }
 
 .logo span {
@@ -53,9 +53,6 @@ padding-top: 116px;
 
 }
 
-div {
-  border: 1px solid black;
-}
 
 .column {
 display: flex;
@@ -75,11 +72,15 @@ margin-right: 32px;
  width: 240px;
 }
 
+h1 {
+  font-size: 24px;
+}
 
 .img.mother{
   font-size: 40px;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
   margin-top: 0;
+  width: 630px;
 }
 
 .img.cats{
@@ -110,4 +111,27 @@ margin-right: 32px;
  font-family: Georgia;
  font-size: 17px;
  color: black;
+}
+
+.mother.img span {
+  text-align: left;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.small-stories {
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+
+.small-column-2 {
+  height: 250px;
+}
+.one {
+  margin-right: 30px;
 }
