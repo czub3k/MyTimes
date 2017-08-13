@@ -1,6 +1,6 @@
 body {
 color: black;
-margin-top: 0;
+margin: 0;
 }
 
 header {
@@ -20,9 +20,9 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 30px;
   flex-grow: 1; /* IMPORTANT to have space between the items*/
   margin-bottom: 10px;
+  padding-left: 30px;
 
 }
 
@@ -50,6 +50,8 @@ display: flex;
 width: 1232px;
 margin: 0 auto 78px auto;
 padding-top: 116px;
+font-size: 17px;
+font-family: Georgia;
 
 }
 
@@ -73,7 +75,8 @@ margin-right: 32px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
+  font-style: normal;
 }
 
 .img.mother{
@@ -105,6 +108,8 @@ h1 {
   font-size: 30px;
   color: white;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img p{
@@ -115,6 +120,7 @@ h1 {
 
 .mother.img span {
   text-align: left;
+  margin-left: 20px;
 }
 
 .stories {
@@ -134,4 +140,59 @@ width: 300px;
 }
 .one {
   margin-right: 30px;
+}
+.news-bites span {
+  display: block;
+  flex-wrap: wrap;
+  margin: 0;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+}
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+footer {
+  display: flex;
+  color: black;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 325px;
+}
+.footer-all {
+  display: inline-block;
+}
+
+.footer-title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+
+}
+.footer-all nav {
+  padding-left: 25px;
+  display: inline-block;
+}
+.footer-all nav span {
+  padding: 20px 10px;
+
+.footer-bottom {
+  font-family: Verdana;
+  font-size: 12px;
 }
